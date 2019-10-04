@@ -15,7 +15,7 @@ export class SidenavListComponent implements OnInit {
   }
 
   onToggleClose() {
-    this.closeSideNavigation.emit()
+    this.closeSideNavigation.emit();
   }
 
 }
